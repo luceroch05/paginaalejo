@@ -7,12 +7,14 @@
     justify-content: center; /* Esto asegura que el logo esté centrado dentro de la barra de navegación */
     align-items: center;
     position: relative;
-    
-    
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade un sombreado a la base */
+    padding: 10px 20px;
 }
 .navbar a{
     margin-left: 1rem;
     text-decoration: none;
+    color: #B8B8BA;
     
 }
 
@@ -47,3 +49,7 @@
   }
   .nav-left img, .navbar-right img {
     margin-right: 8px; }
+
+#carrusel{
+    margin-top: 10px;
+}
